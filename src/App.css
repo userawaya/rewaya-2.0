@@ -1,0 +1,57 @@
+
+
+/* Remove all Vite template styles that interfere with full-width layout */
+
+/* Keep only essential styles that don't interfere with layout */
+.read-the-docs {
+  color: #888;
+}
+
+/* Ensure body and html have no interfering styles */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* Ensure root container doesn't interfere */
+#root {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  min-height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Fix navigation visibility and positioning */
+nav {
+  display: block !important;
+  width: 100% !important;
+  z-index: 1000 !important;
+  position: sticky !important;
+  top: 0 !important;
+  background: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(8px) !important;
+  border-bottom: 1px solid rgba(34, 197, 94, 0.1) !important;
+}
+
+/* Fix footer visibility and positioning */
+footer {
+  display: block !important;
+  width: 100% !important;
+  z-index: 1000 !important;
+  position: relative !important;
+  margin-top: auto !important;
+  background-color: rgb(17, 24, 39) !important;
+  color: white !important;
+}
+
+/* Ensure main content area allows full layout */
+.min-h-screen {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
