@@ -46,7 +46,7 @@ const Waitlist = () => {
       <img
         src="/lovable-uploads/logo.png"
         alt="Rewaya Logo"
-        className="w-30 absolute top-[50px] mt-0 sm:w-30 h-8 sm:h-10 sm:mt-[70px]"
+        className="w-30 absolute top-[50px] sm:top-[0px] mt-0 sm:w-30 h-8 sm:h-10 sm:mt-[70px]"
       />
       <div className="text-gray-500 text-xs absolute top-[120px] sm:text-sm mb-6">⚙️ coming soon</div>
 
@@ -127,7 +127,7 @@ const Waitlist = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6 }}
         src="/Group-19.png"
-        className="h-[25vh] w-[23%] top-[75vh] sm:h-[45vh] block absolute bottom-0 sm:w-[14%]  sm:top-[55vh] right-0 mb-4 mr-12"
+        className="h-[25vh] w-[23%] top-[75vh] sm:h-[45vh] block absolute bottom-0 sm:w-[14%]  sm:top-[55vh] right-0 mb-4 mr-4 sm:mr-12"
       />
 
       <motion.img
@@ -135,7 +135,7 @@ const Waitlist = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6 }}
         src="/Layer_1.png"
-        className="h-[25vh] w-[23%] top-[75vh] sm:h-[45vh] block absolute bottom-0 sm:w-[14%]  sm:top-[55vh] left-0 mb-4 ml-12"
+        className="h-[25vh] w-[23%] top-[75vh] sm:h-[45vh] block absolute bottom-0 sm:w-[14%]  sm:top-[55vh] left-0 mb-4 ml-4 sm:ml-12"
       />
     </motion.main>
   );
