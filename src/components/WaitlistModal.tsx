@@ -34,6 +34,7 @@ const WaitlistModal: React.FC<Props> = ({ isOpen, onClose }) => {
     setIsLoading(true); // Start loading
 
     try {
+      playNotificationSound();
       await fetch("https://script.google.com/macros/s/AKfycbz5x-LxWX3fGLKh7X0dG9UjxYA8tqxO8CAHdJ7B8180_lQWBV3N1Kwpm78ww7P286kzOA/exec", {
         method: "POST",
         mode: "no-cors",
@@ -43,7 +44,7 @@ const WaitlistModal: React.FC<Props> = ({ isOpen, onClose }) => {
         body: JSON.stringify(form),
       });
 
-      playNotificationSound();
+      
       setShowSuccess(true);
     } catch (error) {
       console.error("Error submitting form", error);
