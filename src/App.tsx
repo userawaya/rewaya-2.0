@@ -46,9 +46,9 @@ const Waitlist = () => {
       <img
         src="/lovable-uploads/logo.png"
         alt="Rewaya Logo"
-        className="w-30 absolute top-[50px] sm:top-[0px] mt-0 sm:w-30 h-8 sm:h-10 sm:mt-[70px]"
+        className="w-30 absolute top-[50px] sm:top-[0px] mt-0 sm:w-30 h-8 sm:h-10 sm:mt-[50px]"
       />
-      <div className="text-gray-500 text-xs absolute top-[120px] sm:text-sm mb-6">⚙️ coming soon</div>
+      <div className="text-gray-500 text-xs absolute top-[95px] sm:text-sm ">⚙️ coming soon</div>
 
       {/* Main Heading */}
       <motion.h1
