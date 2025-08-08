@@ -91,15 +91,15 @@ const Waitlist = () => {
         transition={{ delay: 0.9 }}
         className=" w-full px-0 flex flex-row sm:flex-row justify-center gap-4 sm:gap-8 mt-2 sm:mt-12 text-center sm:px-4"
       >
-        <div className="px-0 sm:py-0 sm:px-2 py-2 w-full">
+        <div className="px-0 sm:py-0 sm:px-2 py-2 w-full sm:w-1/4">
           <div className="text-lg sm:text-xl font-semibold">32M+</div>
           <div className="text-gray-500 text-xs sm:text-sm">Tonnes of waste generated yearly</div>
         </div>
-        <div className="px-0 sm:py-0 sm:px-2 py-2 w-full">
+        <div className="px-0 sm:py-0 sm:px-2 py-2 w-full sm:w-1/4">
           <div className="text-lg sm:text-xl font-semibold">₦15K</div>
           <div className="text-gray-500 text-xs sm:text-sm">Average monthly earnings potential</div>
         </div>
-        <div className="px-0 sm:py-0 sm:px-2 py-2 w-full">
+        <div className="px-0 sm:py-0 sm:px-2 py-2 w-full sm:w-1/4">
           <div className="text-lg sm:text-xl font-semibold">100%</div>
           <div className="text-gray-500 text-xs sm:text-sm">Environmental impact improvement</div>
         </div>
@@ -190,12 +190,14 @@ const Waitlist = () => {
         className="hidden h-[25vh] w-[40%] top-[95vh] sm:h-[20vh] sm:block absolute bottom-0 sm:w-[13%]  sm:top-[80vh] right-8 mb-4 ml-4 sm:ml-12"
       />
       </motion.div>
+      <motion.div
+      >
 <motion.img
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6 }}
         src="/Group-19-slant.png"
-        className="absolute right-0 top-[75vh] w-[40%] h-[25vh]"
+        className="block sm:hidden absolute right-0 top-[75vh] w-[40%] h-[25vh]"
       />
 
       <motion.img
@@ -203,9 +205,9 @@ const Waitlist = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6 }}
         src="/Layer_1-slant.png"
-        className="absolute left-0 top-[75vh] w-[40%] h-[25vh]"
+        className="block sm:hidden absolute left-0 top-[75vh] w-[40%] h-[25vh]"
       />
-      <motion.div>
+      
 
       </motion.div>
     </motion.main>
