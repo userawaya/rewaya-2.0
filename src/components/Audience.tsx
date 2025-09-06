@@ -17,7 +17,7 @@ const Audience = () => {
             <p className='text-gray-700 text-sm sm:text-lg mt-4 mb-6'>
               Households, estates, schools, and institutions earning credits by bringing plastic waste to collation centers.
             </p>
-            <button className="bg-black hover:bg-gray-800 text-white px-3 py-3 sm:w-[45%] rounded-lg font-semibold text-[12px] sm:text-lg transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 group">
+            <button className="bg-black hover:bg-gray-800 text-white px-3 py-3 w-[50%] sm:w-[45%] rounded-lg font-semibold text-[12px] sm:text-lg transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 group">
               <span className="bg-[#79B426] text-gray-900 px-3 py-[13px] rounded mr-2">
                 <div className='flex flex-row m-auto justify-end items-center'>
                 <img src='/greater.png' className='w-[4px] sm:w-[8px] h-[7px] sm:h-[14px]'></img>
@@ -38,7 +38,7 @@ const Audience = () => {
             <p className='text-gray-700 text-lg mt-4 mb-6'>
               Households, estates, schools, and institutions earning credits by bringing plastic waste to collation centers.
             </p>
-            <button className="bg-black hover:bg-gray-800 text-white px-3 py-3 sm:w-[45%] rounded-lg font-semibold text-[12px] sm:text-lg transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 group">
+            <button className="bg-black hover:bg-gray-800 text-white px-3 py-3 w-[50%] sm:w-[45%] rounded-lg font-semibold text-[12px] sm:text-lg transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 group">
               <span className="bg-[#79B426] text-gray-900 px-3 py-[13px] rounded mr-2">
                 <div className='flex flex-row m-auto justify-end items-center'>
                 <img src='/greater.png' className='w-[8px] h-[14px]'></img>
@@ -61,7 +61,7 @@ const Audience = () => {
             <p className='text-gray-700 text-sm sm:text-lg mt-4 mb-6'>
               Households, estates, schools, and institutions earning credits by bringing plastic waste to collation centers.
             </p>
-            <button className="bg-black hover:bg-gray-800 text-white px-3 py-3 sm:w-[45%] rounded-lg font-semibold text-[12px] sm:text-lg transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 group">
+            <button className="bg-black hover:bg-gray-800 text-white px-3 py-3 w-[50%] sm:w-[45%] rounded-lg font-semibold text-[12px] sm:text-lg transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 group">
               <span className="bg-[#79B426] text-gray-900 px-3 py-[13px] rounded mr-2">
                 <div className='flex flex-row m-auto justify-end items-center'>
                 <img src='/greater.png' className='w-[4px] sm:w-[8px] h-[7px] sm:h-[14px]'></img>
@@ -83,7 +83,7 @@ const Audience = () => {
             <p className='text-gray-700 text-lg mt-4 mb-6'>
               Households, estates, schools, and institutions earning credits by bringing plastic waste to collation centers.
             </p>
-            <button className="bg-black hover:bg-gray-800 text-white px-3 py-3 sm:w-[45%] rounded-lg font-semibold text-[12px] sm:text-lg transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 group">
+            <button className="bg-black hover:bg-gray-800 text-white px-3 py-3 w-[50%] sm:w-[45%] rounded-lg font-semibold text-[12px] sm:text-lg transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 group">
               <span className="bg-[#79B426] text-gray-900 px-3 py-[13px] rounded mr-2">
                 <div className='flex flex-row m-auto justify-end items-center'>
                 <img src='/greater.png' className='w-[8px] h-[14px]'></img>
@@ -105,7 +105,7 @@ const Audience = () => {
             <p className='text-gray-700 text-sm sm:text-lg mt-4 mb-6'>
               Households, estates, schools, and institutions earning credits by bringing plastic waste to collation centers.
             </p>
-            <button className="bg-black hover:bg-gray-800 text-white px-3 py-3 sm:w-[45%] rounded-lg font-semibold text-[12px] sm:text-lg transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 group">
+            <button className="bg-black hover:bg-gray-800 text-white px-3 py-3 w-[50%] sm:w-[45%] rounded-lg font-semibold text-[12px] sm:text-lg transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 group">
               <span className="bg-[#79B426] text-gray-900 px-3 py-[13px] rounded mr-2">
                 <div className='flex flex-row m-auto justify-end items-center'>
                 <img src='/greater.png' className='w-[4px] sm:w-[8px] h-[7px] sm:h-[14px]'></img>
