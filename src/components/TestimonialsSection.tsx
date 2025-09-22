@@ -94,7 +94,7 @@ const Testimonials: React.FC = () => {
     <section className="py-8 sm:py-16 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-8 sm:mb-16">
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-3 sm:mb-6 font-bricolage">
             What Our Community Says
           </h2>

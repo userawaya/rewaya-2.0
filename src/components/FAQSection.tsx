@@ -32,7 +32,7 @@ const FAQ: React.FC = () => {
   };
 
   return (
-    <section className="py-8 sm:py-16 px-4 sm:px-6 lg:px-8 bg-white">
+    <section className="py-8 sm:py-8 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="sm:max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-8 sm:mb-16 font-bricolage">

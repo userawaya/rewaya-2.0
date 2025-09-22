@@ -29,7 +29,7 @@ const OurValues: React.FC = () => {
   ];
 
   return (
-    <section className="mb-8 sm:mb-0 px-4 sm:px-6 lg:px-8 bg-white">
+    <section className="mb-4 sm:mb-0 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-6 sm:mb-16">
@@ -43,7 +43,7 @@ const OurValues: React.FC = () => {
         </div>
 
         {/* Values Grid */}
-        <div className="grid grid-cols-4 gap-4 sm:gap-8">
+        <div className="flex flex-col w-[30%] mx-auto sm:w-[100%] sm:grid sm:grid-cols-4 gap-4 sm:gap-8">
           {values.map((value, index) => {
             return (
               <div 

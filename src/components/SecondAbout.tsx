@@ -25,10 +25,10 @@ const AboutReWaya: React.FC = () => {
   ];
 
   return (
-    <div className="h-[100%] sm:min-h-screen pb-16 sm:pb-0 bg-white py-10 sm:py-16 px-4 sm:px-6 lg:px-8">
+    <div className="h-[100%] sm:h-[70vh] pb-8 sm:pb-0 bg-white py-10 sm:py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-8 sm:mb-16">
           <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-2 sm:mb-6">
             About ReWaya
           </h1>

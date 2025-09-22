@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
   
 
   return (
-    <div className="min-h-[80vh] w-full bg-gradient-to-b from-[#96DA354D] via-[#E7FFC500] to-[#E7FFC500] pt-9 overflow-hidden">
+    <div className="sm:h-[80%] w-full bg-gradient-to-b from-[#96DA354D] via-[#E7FFC500] to-[#E7FFC500] pt-9 overflow-hidden">
       {/* Navigation */}
       <nav className="w-full px-6 py-4">
         <div className="w-[90%] sm:max-w-7xl mx-auto">
@@ -49,12 +49,15 @@ const HeroSection: React.FC = () => {
 
             {/* Get Started Button - Desktop */}
             <div className=" items-center">
-            <a
-              href="/get-started"
-              className="hidden md:flex bg-gradient-to-br text-lg from-[#79B4261A]  to-[#79B426] text-[#1D3B00] px-6 py-2 rounded-lg font-semilight transition-all duration-200 shadow-sm hover:shadow-md"
-            >
-              Get Started
-            </a>
+            <button className="bg-[#000000] hover:bg-gray-800 text-white px-3 py-3 hidden sm:flex rounded-2xl font-semibold sm:text-lg transition-all duration-200 shadow-lg hover:shadow-xl items-center gap-2 group">
+              <span className="bg-[#79B426] text-gray-900 px-3 py-[13px] rounded">
+                <div className='flex flex-row m-auto justify-end items-center'>
+                <img src='/greater.png' className='w-[8px] h-[14px]'></img>
+                <img src='/greater.png' className='w-[8px] h-[14px]'></img>
+                </div>
+              </span>
+              Get started for free
+            </button>
           </div>
 
             {/* Mobile Menu Button */}
@@ -120,7 +123,7 @@ const HeroSection: React.FC = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full">
-            <button className="bg-gray-900 hover:bg-gray-800 text-white px-3 py-3 rounded-lg font-semibold sm:text-lg transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 group">
+            <button className="bg-[#000000] hover:bg-gray-800 text-white px-3 py-3 rounded-2xl font-semibold sm:text-lg transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2 group">
               <span className="bg-[#79B426] text-gray-900 px-3 py-[13px] rounded">
                 <div className='flex flex-row m-auto justify-end items-center'>
                 <img src='/greater.png' className='w-[8px] h-[14px]'></img>
@@ -130,7 +133,7 @@ const HeroSection: React.FC = () => {
               Get started for free
             </button>
 
-            <button className="bg-white h-16 hover:bg-gray-50 w-[60%] sm:w-[27%] text-gray-700 border-2 border-gray-200 px-4 sm:px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 shadow-sm hover:shadow-md flex items-center gap-4">
+            <button className="bg-white h-16 hover:bg-gray-50 w-[60%] sm:w-[20%] text-gray-700 border-2 px-2 text-[14px] border-[#0F0F0F] rounded-2xl font-semibold text-lg transition-all duration-200 shadow-sm hover:shadow-md flex justify-center gap-4 items-center">
               <span className="bg-[#79B426] text-gray-900 px-3 py-[13px] rounded">
                 <img src='/play.png' className='w-[14px] h-[14px]'></img>
               </span>
