@@ -25,7 +25,7 @@ const AboutReWaya: React.FC = () => {
   ];
 
   return (
-    <div className="h-[100%] sm:h-[70vh] pb-8 sm:pb-0 bg-white py-10 sm:py-16 px-4 sm:px-6 lg:px-8">
+    <div className="h-[100%] sm:h-[100%] pb-8 sm:pb-0 bg-white py-10 sm:py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-8 sm:mb-16">
