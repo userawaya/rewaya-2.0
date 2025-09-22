@@ -133,7 +133,7 @@ const HeroSection: React.FC = () => {
               Get started for free
             </button>
 
-            <button className="bg-white h-16 hover:bg-gray-50 w-[60%] sm:w-[20%] text-gray-700 border-2 px-2 text-[14px] border-[#0F0F0F] rounded-2xl font-semibold text-lg transition-all duration-200 shadow-sm hover:shadow-md flex justify-center gap-4 items-center">
+            <button className="bg-white h-16 hover:bg-gray-50 w-[60%] sm:w-[22%] text-gray-700 border-2 px-2 text-[13px] border-[#0F0F0F] rounded-2xl font-semibold text-lg transition-all duration-200 shadow-sm hover:shadow-md flex justify-center gap-4 items-center">
               <span className="bg-[#79B426] text-gray-900 px-3 py-[13px] rounded">
                 <img src='/play.png' className='w-[14px] h-[14px]'></img>
               </span>
