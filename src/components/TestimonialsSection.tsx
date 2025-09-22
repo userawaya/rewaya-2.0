@@ -105,7 +105,7 @@ const Testimonials: React.FC = () => {
         </div>
 
         {/* Continuous Slider */}
-        <div className="overflow-hidden">
+        <div className="overflow-hidden rounded-2xl ">
           <div
             ref={carouselRef}
             className="flex space-x-6 sm:space-x-12 "
