@@ -117,23 +117,24 @@ const Testimonials: React.FC = () => {
             {loopedTestimonials.map((t, index) => (
               <div
                 key={index}
-                className="bg-white rounded-2xl p-6 border border-[#00000033] w-[80%] sm:w-[30%] flex-shrink-0"
+                className="bg-white rounded-2xl p-6 border border-[#00000033] w-[50%] sm:w-[30%] flex-shrink-0"
               >
+                
                 <img src='/quotes.png' className="w-7 sm:w-10 h-7 sm:h-10 rounded-full mb-4 object-cover" />
                 <div className='flex flex-row w-[12%]'>
-                <img src='/stars-2.png' className="w-5 h-5 rounded-full mb-4 object-cover mx-auto" />
-                <img src='/stars-2.png' className="w-5 h-5 rounded-full mb-4 object-cover mx-auto" />
-                <img src='/stars-2.png' className="w-5 h-5 rounded-full mb-4 object-cover mx-auto" />
-                <img src='/stars-2.png' className="w-5 h-5 rounded-full mb-4 object-cover mx-auto" />
-                <img src='/stars-2.png' className="w-5 h-5 rounded-full mb-4 object-cover mx-auto" />
+                <img src='/stars-2.png' className="w-[7.660799980163574px] sm:w-5 h-[7.660799980163574] sm:h-5 rounded-full mb-4 object-cover mx-auto" />
+                <img src='/stars-2.png' className="w-[7.660799980163574px] sm:w-5 h-[7.660799980163574] sm:h-5 rounded-full mb-4 object-cover mx-auto" />
+                <img src='/stars-2.png' className="w-[7.660799980163574px] sm:w-5 h-[7.660799980163574] sm:h-5 rounded-full mb-4 object-cover mx-auto" />
+                <img src='/stars-2.png' className="w-[7.660799980163574px] sm:w-5 h-[7.660799980163574] sm:h-5 rounded-full mb-4 object-cover mx-auto" />
+                <img src='/stars-2.png' className="w-[7.660799980163574px] sm:w-5 h-[7.660799980163574] sm:h-5 rounded-full mb-4 object-cover mx-auto" />
                 
                 </div>
-                <blockquote className="text-gray-700 text-sm sm:text-2xl mb-4 leading-relaxed">
+                <blockquote className="text-gray-700 text-[7.18px] w-[154.37185668945312px] sm:w-full sm:text-[15px] mb-4 leading-relaxed">
                   "{t.quote}"
                 </blockquote>
                 <div className="flex items-center space-x-3">
-                  <div className="w-7 sm:w-12 h-7 sm:h-12 bg-gray-800 rounded-full flex items-center justify-center overflow-hidden">
-                    <span className="text-white text-sm font-semibold">
+                  <div className="w-[22.982398986816406px] sm:w-12 h-[22.982398986816406px] sm:h-12 bg-gray-800 rounded-full flex items-center justify-center overflow-hidden">
+                    <span className="text-white text-[4.79px] sm:text-sm font-semibold">
                       {t.name
                         .split(" ")
                         .map((n) => n[0])
@@ -141,14 +142,15 @@ const Testimonials: React.FC = () => {
                     </span>
                   </div>
                   <div className="text-left">
-                    <h4 className="font-semibold text-gray-900 text-sm">
+                    <h4 className="font-semibold text-gray-900 text-[7.54px] sm:text-sm">
                       {t.name}
                     </h4>
-                    <p className="text-gray-600 text-sm sm:text-xs">{t.role}</p>
-                    <p className="text-gray-500 text-sm sm:text-xs">{t.location}</p>
+                    <p className="text-gray-600  text-[6.28px] sm:text-xs">{t.role}</p>
+                    <p className="text-gray-500 text-[6.28px] sm:text-xs">{t.location}</p>
                   </div>
                 </div>
-              </div>
+                </div>
+              
             ))}
           </div>
         </div>
