@@ -38,7 +38,7 @@ const AboutReWaya: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-12 lg:gap-16 items-start">
+        <div className="grid grid-cols-2 gap-12 lg:gap-16 items-start sm:pb-[60px]">
           {/* Our Story Section */}
           <div className="space-y-6">
             <h2 className="text-sm sm:text-3xl text-[#4B5563] mb-6">
